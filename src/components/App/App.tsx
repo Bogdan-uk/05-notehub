@@ -73,3 +73,4 @@ export default function App() {
     </div>
   );
 }
+// registr не виправляє ***** цей Гіт
