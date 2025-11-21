@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useDebounce } from "use-debounce";
 import { fetchNotes } from "../../services/noteService";
-import NoteList from "../Notelist/Notelist";
+import NoteList from "../NoteList/NoteList";
 import Pagination from "../Pagination/Pagination";
 import SearchBox from "../SearchBox/SearchBox";
 import Modal from "../Modal/Modal";
