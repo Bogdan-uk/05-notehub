@@ -54,9 +54,7 @@ export default function App() {
 
       {isLoading && <p>Loading...</p>}
       {isError && <p>Something went wrong. Try again.</p>}
-      {!isLoading && !isError && notes.length > 0 && (
-        <NoteList notes={notes} onMutated={refetch} />
-      )}
+      {!isLoading && !isError && notes.length > 0 && <NoteList notes={notes} />}
 
       {isModalOpen && (
         <Modal onClose={closeModal}>
